@@ -1,0 +1,26 @@
+                 ON-PREMISES DATACENTER
+              ┌─────────────────────────┐
+              │ VMware / ESXi            │
+              │ Virtual Machines         │
+              │ Applications / Databases │
+              └────────────┬────────────┘
+                           │
+                    Hybrid Connectivity
+                           │
+                 ┌─────────┴─────────┐
+                 │                   │
+                 ▼                   ▼
+        ┌─────────────────┐ ┌─────────────────┐
+        │ AWS Landing Zone│ │ Azure Landing   │
+        │                 │ │ Zone            │
+        │ Compute         │ │ Compute         │
+        │ Storage / DB    │ │ Storage / DB    │
+        └────────┬────────┘ └────────┬────────┘
+                 │                   │
+                 └─────────┬─────────┘
+                           ▼
+                ┌─────────────────────┐
+                │ Security & Operations│
+                │ Monitoring / Backup │
+                │ DR / Governance     │
+                └─────────────────────┘
