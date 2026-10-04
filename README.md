@@ -181,4 +181,23 @@ The architecture aims to provide:
 
 Detailed architecture documents will cover discovery, workload assessment, migration strategies, AWS and Azure target architectures, connectivity, security, storage, operations, governance, and migration execution.
 
+## Architecture Highlights
+
+* Designed a high-level approach for migrating enterprise VMware workloads to AWS and Azure.
+* Used workload discovery, dependency analysis, and business requirements to drive migration decisions.
+* Applied the 7R migration framework to determine the appropriate strategy for each workload.
+* Designed a hybrid architecture to support coexistence between on-premises and cloud environments.
+* Considered landing zones, networking, identity, security, monitoring, backup, and disaster recovery.
+* Used migration waves and controlled cutover planning to reduce business and technical risk.
+* Kept workload placement flexible between AWS, Azure, and on-premises based on application requirements.
+
+## Architecture Perspective
+
+This project represents a simplified enterprise reference architecture focused on the decisions and considerations involved in VM-to-cloud migration.
+
+The emphasis is on **architecture, migration planning, risk management, and operational readiness**, rather than implementation-specific code.
+
+> This is a sanitized reference architecture and does not contain proprietary configurations, credentials, internal network information, or production migration artifacts.
+
+
 
